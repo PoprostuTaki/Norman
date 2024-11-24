@@ -5,5 +5,5 @@ export const Route = createLazyFileRoute("/about")({
 });
 
 function About() {
-  return <div className="p-2">Hello from About!</div>;
+  return <main className="flex-1">Hello from About</main>;
 }
